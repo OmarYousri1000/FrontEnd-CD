@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: omaryousry315/java:1
+        image: omaryousry315/java:2
         imagePullPolicy: Always
 
         ports:
