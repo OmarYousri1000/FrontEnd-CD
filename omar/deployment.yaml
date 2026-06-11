@@ -18,10 +18,8 @@ spec:
         app: java-app
 
     spec:
-      containers:
-      - name: java-app
-        image: omaryousry315/java:2
-        imagePullPolicy: Always
-
-        ports:
-        - containerPort: 8080
+     containers:
+  - name: java-app
+    image: omaryousry315/java:2
+    ports:
+      - containerPort: 8090
