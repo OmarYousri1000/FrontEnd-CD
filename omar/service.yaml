@@ -6,9 +6,12 @@ metadata:
   namespace: omar
 
 spec:
+  selector:
+    app: java-app
+
   ports:
     - port: 80
       targetPort: 8090
       nodePort: 30080
-      
+
   type: NodePort
